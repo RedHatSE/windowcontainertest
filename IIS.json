@@ -1,0 +1,63 @@
+{
+    "AspNet35Status":  "Present",
+    "ApplicationPools":  {
+                             "applicationPools":  [
+                                                      "DefaultAppPool",
+                                                      "Classic .NET AppPool",
+                                                      ".NET v2.0 Classic",
+                                                      ".NET v2.0",
+                                                      ".NET v4.5 Classic",
+                                                      ".NET v4.5"
+                                                  ],
+                             "applicationPoolDefaults":  {
+                                                             "managedRuntimeVersion":  "v4.0",
+                                                             "processModel":  {
+                                                                                  "identityType":  "ApplicationPoolIdentity"
+                                                                              }
+                                                         }
+                         },
+    "ApplicationDefaults":  [
+
+                            ],
+    "SiteDefaults":  [
+                         [
+
+                         ],
+                         [
+
+                         ]
+                     ],
+    "Websites":  [
+                     {
+                         "Name":  "Default Web Site",
+                         "ID":  "1",
+                         "Applications":  [
+                                              {
+                                                  "Path":  "/",
+                                                  "ApplicationPool":  null,
+                                                  "VirtualDirectories":  [
+                                                                             {
+                                                                                 "Path":  "/",
+                                                                                 "PhysicalPath":  "C:\\inetpub\\wwwroot"
+                                                                             }
+                                                                         ]
+                                              }
+                                          ],
+                         "Bindings":  [
+                                          {
+                                              "Protocol":  "http",
+                                              "BindingInformation":  "*:80:"
+                                          }
+                                      ]
+                     }
+                 ],
+    "AspNetStatus":  "Present",
+    "FeatureName":  "IIS-ApplicationDevelopment;IIS-ApplicationInit;IIS-ASP;IIS-ASPNET;IIS-ASPNET45;IIS-BasicAuthentication;IIS-CertProvider;IIS-CGI;IIS-ClientCertificateMappingAuthentication;IIS-CommonHttpFeatures;IIS-CustomLogging;IIS-DefaultDocument;IIS-DigestAuthentication;IIS-DirectoryBrowsing;IIS-FTPExtensibility;IIS-FTPServer;IIS-FTPSvc;IIS-HealthAndDiagnostics;IIS-HttpCompressionDynamic;IIS-HttpCompressionStatic;IIS-HttpErrors;IIS-HttpLogging;IIS-HttpRedirect;IIS-HttpTracing;IIS-IISCertificateMappingAuthentication;IIS-IPSecurity;IIS-ISAPIExtensions;IIS-ISAPIFilter;IIS-LegacyScripts;IIS-LegacySnapIn;IIS-LoggingLibraries;IIS-Metabase;IIS-NetFxExtensibility;IIS-NetFxExtensibility45;IIS-ODBCLogging;IIS-Performance;IIS-RequestFiltering;IIS-RequestMonitor;IIS-Security;IIS-ServerSideIncludes;IIS-StaticContent;IIS-URLAuthorization;IIS-WebDAV;IIS-WebServer;IIS-WebServerRole;IIS-WebSockets;IIS-WindowsAuthentication;IIS-WMICompatibility;NetFx4Extended-ASPNET45",
+    "VirtualDirectoryDefaults":  [
+
+                                 ],
+    "Status":  "Present",
+    "HttpHandlers":  [
+
+                     ]
+}
